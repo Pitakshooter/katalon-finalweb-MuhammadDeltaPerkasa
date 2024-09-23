@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f87161e9-9e8b-4a0f-819e-cf04778e36fc</testSuiteGuid>
+   <testCaseLink>
+      <guid>f369a62c-b807-4355-8d99-0a9f0fdced0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d099e871-dccc-4825-8bd2-2d03d5c37a56</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>d099e871-dccc-4825-8bd2-2d03d5c37a56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>1bdae79d-e2eb-4d59-baa3-cbc01f38df2c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d099e871-dccc-4825-8bd2-2d03d5c37a56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>9c8092e0-d89a-4f5e-90e2-878f145336af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d099e871-dccc-4825-8bd2-2d03d5c37a56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>1e2b8fd6-040f-4488-a055-6ce408f27669</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d099e871-dccc-4825-8bd2-2d03d5c37a56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedErrorMesssage</value>
+         <variableId>b0ee32f5-b284-47f7-b131-99a0adac61c7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
