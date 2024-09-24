@@ -1,3 +1,7 @@
+link Testing yang digunakan https://advantageonlineshopping.com/
+Merupakan web demo untuk melakukan pembelian
+
+
 Tes yang Dilakukan
 Login
 Login akun benar
